@@ -1,0 +1,21 @@
+-  request:
+      method: POST
+      url: /hello-world
+      post: "(.*)msisdn(.*)date(.*)"
+
+   response:
+      status: 200
+      headers:
+         content-type: text/xml
+      file: response.xml
+
+-  request:
+      method: POST
+      url: /hello-world
+      post: "(.*)msisdn(.*)"
+
+   response:
+      status: 200
+      headers:
+         content-type: text/xml
+      file: response2.xml

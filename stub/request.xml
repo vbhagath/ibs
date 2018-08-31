@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+
+    <soap:Body xmlns:m="http://schemas.xmlsoap.org/soap/envelope/">
+        <m:GetStockPrice>
+            <m:StockName>([0-9]+)</m:StockName>
+        </m:GetStockPrice>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,8 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:result xmlns:ns2="http://schemas.xmlsoap.org/soap/envelope/">
+            <resultCode>OK</resultCode>
+            <resultDescription>The second request has been accepted, the user will now be provisioned</resultDescription>
+        </ns2:result>
+    </soap:Body>
+</soap:Envelope>
